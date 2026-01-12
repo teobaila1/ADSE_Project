@@ -1,0 +1,67 @@
+{'cmdline': ['/home/ioana/snipersim/run-sniper',
+             '-c',
+             '/home/ioana/snipersim/config/base.cfg',
+             '-c',
+             'perf_model/cache/levels=2',
+             '-c',
+             'perf_model/l1_dcache/cache_size=32',
+             '-c',
+             'perf_model/l2_cache/cache_size=512',
+             '-d',
+             'DSE_Results/L1_32_L2512',
+             '--',
+             '/home/ioana/snipersim/test/fft/fft',
+             '-p1'],
+ 'git_revision': '2fcab91275d3e2829a1c2f13ba2983fe12ec9d29',
+ 'host': 'ioana-VirtualBox',
+ 'pin_version': 'unknown',
+ 'rusage': (0.559921,
+            0.054218999999999996,
+            108272,
+            0,
+            0,
+            0,
+            14619,
+            0,
+            0,
+            0,
+            64,
+            0,
+            0,
+            0,
+            2,
+            25),
+ 'snipercmd': ['bash',
+               '-c',
+               '/home/ioana/snipersim/lib/sniper -c '
+               '/home/ioana/snipersim/config/base.cfg --general/total_cores=1 '
+               '--general/output_dir=/home/ioana/project/ADSE_Project/DSE_Results/L1_32_L2512 '
+               '--config=/home/ioana/snipersim/config/base.cfg '
+               '--perf_model/cache/levels=2 '
+               '--perf_model/l1_dcache/cache_size=32 '
+               '--perf_model/l2_cache/cache_size=512 -g '
+               '--traceinput/stop_with_first_app=true -g '
+               '--traceinput/restart_apps=false -g '
+               '--traceinput/stop_with_first_app=false -g '
+               '--traceinput/enabled=true -g '
+               '--traceinput/emulate_syscalls=true -g --traceinput/num_apps=1 '
+               '-g --traceinput/trace_prefix=/tmp/tmptf6xvuka/run_benchmarks'],
+ 't_elapsed': 0.7248222827911377,
+ 't_start': 1767787829.7748346,
+ 'tracecmds': [['/home/ioana/snipersim/record-trace',
+                '-o',
+                '/tmp/tmptf6xvuka/run_benchmarks',
+                '--sde-arch=future',
+                '-e',
+                '1',
+                '-s',
+                '0',
+                '-r',
+                '1',
+                '--follow',
+                '--routine-tracing',
+                '--',
+                '/home/ioana/snipersim/test/fft/fft',
+                '-p1']],
+ 'user': 'ioana',
+ 'vmem': 378097664}
