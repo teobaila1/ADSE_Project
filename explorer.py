@@ -4,7 +4,7 @@ import subprocess
 l1_sizes = ["32", "64"]
 l2_sizes = ["256", "512"]
 
-SNIPER_DIR = "/home/ioana/snipersim"
+SNIPER_DIR = "/home/teutu/snipersim"
 SNIPER_EXE = os.path.join(SNIPER_DIR, "run-sniper")
 CONFIG_FILE= os.path.join(SNIPER_DIR, "config/gainestown.cfg")
 BENCHMARK = os.path.join(SNIPER_DIR, "test/fft/fft")
